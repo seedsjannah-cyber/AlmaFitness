@@ -15,6 +15,9 @@
     <!-- Font Awesome for icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
+    <!-- Stripe -->
+    <script src="https://js.stripe.com/v3/"></script>
+
     <!-- Stylesheets -->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/animations.css">
@@ -240,11 +243,11 @@
                         <label for="coachingType">Coaching Type *</label>
                         <select id="coachingType" name="coachingType" required>
                             <option value="">Select coaching type...</option>
-                            <option value="wellness-diet">Wellness Coaching - Personalized Diet Plan</option>
-                            <option value="wellness-workout">Wellness Coaching - Customized Workout Plan</option>
-                            <option value="wellness-training">Wellness Coaching - 1-on-1 Online Training</option>
-                            <option value="life-coaching">Life Coaching - Mindset, Goals & Personal Growth</option>
-                            <option value="combined">Combined Wellness & Life Coaching</option>
+                            <option value="wellness-diet" data-price="97">Wellness Coaching - Personalized Diet Plan ($97/month)</option>
+                            <option value="wellness-workout" data-price="97">Wellness Coaching - Customized Workout Plan ($97/month)</option>
+                            <option value="wellness-training" data-price="197">Wellness Coaching - 1-on-1 Online Training ($197/session)</option>
+                            <option value="life-coaching" data-price="147">Life Coaching - Mindset, Goals & Personal Growth ($147/session)</option>
+                            <option value="combined" data-price="247">Combined Wellness & Life Coaching ($247/month)</option>
                         </select>
                     </div>
 
