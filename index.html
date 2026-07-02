@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Alma's Fitness - Transform your body, mind, and life with personalized wellness and life coaching. Book your session today.">
+    <meta name="keywords" content="fitness coaching, wellness, life coaching, personal training, mindset coaching, online fitness">
+    <title>Alma's Fitness | Transform Your Life</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <a href="#home" class="logo">
+                    <span class="logo-text">Alma's Fitness</span>
+                </a>
+
+                <button class="mobile-menu-toggle" id="mobileMenuToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="#home" class="nav-link">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#services" class="nav-link">Services</a></li>
+                    <li><a href="#book" class="nav-link">Book Session</a></li>
+                    <li><a href="#shop" class="nav-link">Shop</a></li>
+                    <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+                    <li><a href="#faq" class="nav-link">FAQ</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                    <li><a href="#cart" class="nav-link cart-icon-link">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span class="cart-count" id="cartCount">0</span>
+                    </a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="hero-title fade-in-up">Your Journey to Extraordinary Starts Here</h1>
+            <p class="hero-subtitle fade-in-up delay-1">Break through your limits. Transform your body. Unleash your power. Discover the strongest version of yourself.</p>
+            <div class="hero-cta fade-in-up delay-2">
+                <a href="#book" class="btn btn-primary">Begin Your Transformation</a>
+                <a href="#shop" class="btn btn-secondary">Fuel Your Journey</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span></span>
+        </div>
+    </section>
+
+    <!-- About Alma Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-image fade-in-left">
+                    <div class="image-placeholder">
+                        <img src="images/alma-portrait.jpg" alt="Alma - Fitness & Life Coach" class="profile-image">
+                    </div>
+                </div>
+                <div class="about-content fade-in-right">
+                    <span class="section-label">About Me</span>
+                    <h2 class="section-title">Hi, I'm Alma</h2>
+                    <p class="about-text">
+                        I believe in you, even when you don't believe in yourself. I'm a certified wellness and life coach
+                        who's walked the path from self-doubt to self-mastery. I know what it's like to feel stuck,
+                        exhausted, and disconnected from your dreams — because I've been there.
+                    </p>
+                    <p class="about-text">
+                        But here's what I discovered: transformation isn't just possible, it's inevitable when you commit
+                        to yourself. Today, I combine cutting-edge fitness science with proven mindset strategies to help
+                        extraordinary people like you shatter limitations, build unshakeable confidence, and create a life
+                        that exceeds your wildest expectations.
+                    </p>
+
+                    <div class="mission-box">
+                        <h3 class="mission-title">My Mission</h3>
+                        <p>To ignite a revolution in your life. To help you discover that you're capable of so much more
+                        than you ever imagined. True transformation happens when you stop settling and start owning your
+                        power — body, mind, and soul. Let's make your impossible, possible.</p>
+                    </div>
+
+                    <div class="philosophy-box">
+                        <h3 class="philosophy-title">Coaching Philosophy</h3>
+                        <ul class="philosophy-list">
+                            <li><i class="fas fa-check-circle"></i> Holistic approach to health and wellness</li>
+                            <li><i class="fas fa-check-circle"></i> Personalized strategies tailored to your unique needs</li>
+                            <li><i class="fas fa-check-circle"></i> Sustainable habits over quick fixes</li>
+                            <li><i class="fas fa-check-circle"></i> Empowerment through education and support</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">What I Offer</span>
+                <h2 class="section-title">Services</h2>
+                <p class="section-description">Comprehensive coaching programs designed to transform every aspect of your life</p>
+            </div>
+
+            <div class="services-categories">
+                <!-- Wellness Coaching -->
+                <div class="service-category fade-in-up">
+                    <div class="category-header">
+                        <div class="category-icon">
+                            <i class="fas fa-heartbeat"></i>
+                        </div>
+                        <h3 class="category-title">Wellness Coaching</h3>
+                        <p class="category-description">Transform your physical health with personalized fitness and nutrition guidance</p>
+                    </div>
+                    <div class="services-grid">
+                        <div class="service-card">
+                            <div class="service-icon">
+                                <i class="fas fa-apple-alt"></i>
+                            </div>
+                            <h4 class="service-title">Personalized Diet Plans</h4>
+                            <p class="service-description">Custom nutrition strategies tailored to your goals, preferences, and lifestyle</p>
+                        </div>
+                        <div class="service-card">
+                            <div class="service-icon">
+                                <i class="fas fa-dumbbell"></i>
+                            </div>
+                            <h4 class="service-title">Customized Workout Plans</h4>
+                            <p class="service-description">Progressive training programs designed for your fitness level and objectives</p>
+                        </div>
+                        <div class="service-card">
+                            <div class="service-icon">
+                                <i class="fas fa-video"></i>
+                            </div>
+                            <h4 class="service-title">1-on-1 Online Fitness Training</h4>
+                            <p class="service-description">Live virtual sessions with real-time feedback and form correction</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Life & Mindset Coaching -->
+                <div class="service-category fade-in-up delay-1">
+                    <div class="category-header">
+                        <div class="category-icon">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                        <h3 class="category-title">Life & Mindset Coaching</h3>
+                        <p class="category-description">Develop mental resilience and create lasting positive change in your life</p>
+                    </div>
+                    <div class="services-grid">
+                        <div class="service-card">
+                            <div class="service-icon">
+                                <i class="fas fa-bullseye"></i>
+                            </div>
+                            <h4 class="service-title">Goal Setting & Motivation</h4>
+                            <p class="service-description">Define clear objectives and stay motivated on your journey to success</p>
+                        </div>
+                        <div class="service-card">
+                            <div class="service-icon">
+                                <i class="fas fa-sync-alt"></i>
+                            </div>
+                            <h4 class="service-title">Habit Building</h4>
+                            <p class="service-description">Create sustainable routines that support your long-term success</p>
+                        </div>
+                        <div class="service-card">
+                            <div class="service-icon">
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <h4 class="service-title">Confidence & Personal Growth</h4>
+                            <p class="service-description">Build self-esteem and unlock your true potential</p>
+                        </div>
+                        <div class="service-card">
+                            <div class="service-icon">
+                                <i class="fas fa-users"></i>
+                            </div>
+                            <h4 class="service-title">Relationships & Career Coaching</h4>
+                            <p class="service-description">Navigate personal and professional relationships with clarity and purpose</p>
+                        </div>
+                        <div class="service-card">
+                            <div class="service-icon">
+                                <i class="fas fa-balance-scale"></i>
+                            </div>
+                            <h4 class="service-title">Stress Management & Work-Life Balance</h4>
+                            <p class="service-description">Find harmony and reduce stress through proven techniques</p>
+                        </div>
+                        <div class="service-card">
+                            <div class="service-icon">
+                                <i class="fas fa-shield-alt"></i>
+                            </div>
+                            <h4 class="service-title">Resilience & Mindset Transformation</h4>
+                            <p class="service-description">Develop mental toughness and overcome limiting beliefs</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Book a Session Section -->
+    <section class="booking" id="book">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Get Started</span>
+                <h2 class="section-title">Book a Session</h2>
+                <p class="section-description">Schedule your personalized coaching session today</p>
+            </div>
+
+            <div class="booking-container">
+                <form class="booking-form" id="bookingForm">
+                    <div class="form-group">
+                        <label for="bookingName">Full Name *</label>
+                        <input type="text" id="bookingName" name="name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="bookingEmail">Email Address *</label>
+                        <input type="email" id="bookingEmail" name="email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="bookingPhone">Phone Number *</label>
+                        <input type="tel" id="bookingPhone" name="phone" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="coachingType">Coaching Type *</label>
+                        <select id="coachingType" name="coachingType" required>
+                            <option value="">Select coaching type...</option>
+                            <option value="wellness-diet">Wellness Coaching - Personalized Diet Plan</option>
+                            <option value="wellness-workout">Wellness Coaching - Customized Workout Plan</option>
+                            <option value="wellness-training">Wellness Coaching - 1-on-1 Online Training</option>
+                            <option value="life-goals">Life Coaching - Goal Setting & Motivation</option>
+                            <option value="life-habits">Life Coaching - Habit Building</option>
+                            <option value="life-confidence">Life Coaching - Confidence & Personal Growth</option>
+                            <option value="life-relationships">Life Coaching - Relationships & Career</option>
+                            <option value="life-stress">Life Coaching - Stress Management & Balance</option>
+                            <option value="life-resilience">Life Coaching - Resilience & Mindset</option>
+                            <option value="combined">Combined Wellness & Life Coaching</option>
+                        </select>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="bookingDate">Preferred Date *</label>
+                            <input type="date" id="bookingDate" name="date" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="bookingTime">Preferred Time *</label>
+                            <select id="bookingTime" name="time" required>
+                                <option value="">Select time...</option>
+                                <option value="09:00">9:00 AM</option>
+                                <option value="10:00">10:00 AM</option>
+                                <option value="11:00">11:00 AM</option>
+                                <option value="12:00">12:00 PM</option>
+                                <option value="13:00">1:00 PM</option>
+                                <option value="14:00">2:00 PM</option>
+                                <option value="15:00">3:00 PM</option>
+                                <option value="16:00">4:00 PM</option>
+                                <option value="17:00">5:00 PM</option>
+                                <option value="18:00">6:00 PM</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="bookingMessage">Message (Optional)</label>
+                        <textarea id="bookingMessage" name="message" rows="4" placeholder="Tell me about your goals and what you'd like to achieve..."></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary btn-block">Book Session</button>
+                </form>
+
+                <div class="booking-info">
+                    <div class="info-card">
+                        <i class="fas fa-clock"></i>
+                        <h4>Session Duration</h4>
+                        <p>Initial consultation: 60 minutes<br>Regular sessions: 45 minutes</p>
+                    </div>
+                    <div class="info-card">
+                        <i class="fas fa-calendar-check"></i>
+                        <h4>Availability</h4>
+                        <p>Monday - Friday: 9 AM - 6 PM<br>Saturday: 9 AM - 2 PM</p>
+                    </div>
+                    <div class="info-card">
+                        <i class="fas fa-redo-alt"></i>
+                        <h4>Rescheduling Policy</h4>
+                        <p>Free cancellation up to 24 hours before your session</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Shop Section -->
+    <section class="shop" id="shop">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Premium Products</span>
+                <h2 class="section-title">Shop</h2>
+                <p class="section-description">High-quality fitness apparel and supplements to support your journey</p>
+            </div>
+
+            <div class="shop-filters">
+                <button class="filter-btn active" data-filter="all">All Products</button>
+                <button class="filter-btn" data-filter="apparel">Apparel</button>
+                <button class="filter-btn" data-filter="supplements">Supplements</button>
+            </div>
+
+            <div class="products-grid" id="productsGrid">
+                <!-- Products will be dynamically loaded -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Success Stories</span>
+                <h2 class="section-title">Client Testimonials</h2>
+                <p class="section-description">Real transformations from real people</p>
+            </div>
+
+            <div class="testimonials-grid">
+                <div class="testimonial-card fade-in-up">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">
+                        "I used to look in the mirror and see someone I didn't recognize. Alma didn't just help me lose
+                        30 pounds — she helped me find myself again. For the first time in years, I wake up excited about
+                        life. I'm stronger, happier, and finally living instead of just existing. This is what real
+                        transformation feels like."
+                    </p>
+                    <div class="testimonial-author">
+                        <img src="images/testimonial-1.jpg" alt="Sarah M." class="author-image">
+                        <div class="author-info">
+                            <h4 class="author-name">Sarah M.</h4>
+                            <p class="author-title">Marketing Executive</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card fade-in-up delay-1">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">
+                        "I thought success meant sacrificing my health. I was wrong. Alma showed me that peak performance
+                        in business starts with peak performance in life. In 4 months, I've gained more energy, clarity,
+                        and drive than I've had in a decade. My business is thriving because I'm thriving. Best investment
+                        I've ever made."
+                    </p>
+                    <div class="testimonial-author">
+                        <img src="images/testimonial-2.jpg" alt="Michael R." class="author-image">
+                        <div class="author-info">
+                            <h4 class="author-name">Michael R.</h4>
+                            <p class="author-title">Entrepreneur</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card fade-in-up delay-2">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">
+                        "Six months ago, I was drowning in stress, stuck in my career, and had given up on my health.
+                        Today? I got the promotion I thought was impossible, I'm in the best shape of my life, and I
+                        actually love who I see in the mirror. Alma didn't just change my body — she changed my entire
+                        trajectory. This is my second chance at life."
+                    </p>
+                    <div class="testimonial-author">
+                        <img src="images/testimonial-3.jpg" alt="Jennifer L." class="author-image">
+                        <div class="author-info">
+                            <h4 class="author-name">Jennifer L.</h4>
+                            <p class="author-title">Teacher</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq" id="faq">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Common Questions</span>
+                <h2 class="section-title">FAQ</h2>
+                <p class="section-description">Everything you need to know about coaching and services</p>
+            </div>
+
+            <div class="faq-container">
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>What makes your coaching different from others?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>My approach is truly holistic, combining physical wellness with mindset and life coaching. I don't just give you a workout plan or diet — I help you transform your entire lifestyle by addressing the mental and emotional factors that impact your success. Every program is personalized to your unique goals, challenges, and lifestyle.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>How do online training sessions work?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Online training sessions are conducted via video call (Zoom or similar platforms). You'll receive your workout plan in advance, and during our live session, I'll guide you through exercises, correct your form in real-time, and adjust the workout based on how you're feeling. All you need is a device with a camera and your workout space!</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Do I need any equipment for the fitness programs?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>It depends on your goals and preferences. I can design programs that use minimal equipment (resistance bands, dumbbells) or bodyweight-only routines. If you have access to a gym, we can create more advanced programs. During our initial consultation, we'll discuss what equipment you have available.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>How long before I see results?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Results vary based on your starting point and goals, but most clients notice improvements in energy and mindset within 2-3 weeks. Physical changes typically become visible after 6-8 weeks of consistent effort. Remember, we're building sustainable habits, not looking for quick fixes that don't last.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>What is included in a coaching package?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Packages vary based on your needs, but typically include: initial assessment and goal-setting session, personalized workout and/or nutrition plans, regular check-ins and progress tracking, access to me via messaging for support between sessions, and adjustments to your program as you progress. Life coaching packages also include mindset work, accountability, and strategic planning for personal growth.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Can I combine wellness and life coaching?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Absolutely! In fact, I highly recommend it. My most successful clients work on both their physical health and mindset simultaneously. This comprehensive approach leads to deeper, more lasting transformation. We can create a combined program tailored to your specific needs.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>What is your cancellation and refund policy?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Sessions can be rescheduled free of charge with 24 hours notice. Cancellations with less than 24 hours notice may be charged. For coaching packages, refunds are available within the first 14 days if you're not satisfied. Individual product purchases follow standard return policies (unworn apparel within 30 days, unopened supplements within 30 days).</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Do you offer group coaching or just 1-on-1?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Currently, I focus on 1-on-1 coaching to provide the most personalized experience possible. However, I do occasionally offer small group programs (4-6 people) for specific topics. If you're interested in group coaching, please reach out and I'll add you to the waitlist for upcoming programs.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Get in Touch</span>
+                <h2 class="section-title">Contact</h2>
+                <p class="section-description">Have questions? I'd love to hear from you</p>
+            </div>
+
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <i class="fas fa-envelope"></i>
+                        <h4>Email</h4>
+                        <p><a href="mailto:hello@almasfitness.com">hello@almasfitness.com</a></p>
+                    </div>
+
+                    <div class="contact-card">
+                        <i class="fas fa-phone"></i>
+                        <h4>Phone</h4>
+                        <p><a href="tel:+1234567890">+1 (234) 567-890</a></p>
+                    </div>
+
+                    <div class="contact-card">
+                        <i class="fas fa-clock"></i>
+                        <h4>Business Hours</h4>
+                        <p>Mon - Fri: 9 AM - 6 PM<br>Sat: 9 AM - 2 PM</p>
+                    </div>
+
+                    <div class="social-links">
+                        <h4>Follow Me</h4>
+                        <div class="social-icons">
+                            <a href="https://instagram.com" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                            <a href="https://facebook.com" target="_blank" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                            <a href="https://youtube.com" target="_blank" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                            <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="contactName">Name *</label>
+                        <input type="text" id="contactName" name="name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="contactEmail">Email *</label>
+                        <input type="email" id="contactEmail" name="email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="contactSubject">Subject *</label>
+                        <input type="text" id="contactSubject" name="subject" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="contactMessage">Message *</label>
+                        <textarea id="contactMessage" name="message" rows="6" required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+                </form>
+            </div>
+
+            <!-- Newsletter Signup -->
+            <div class="newsletter-section">
+                <div class="newsletter-content">
+                    <h3>Join the Movement</h3>
+                    <p>Get weekly inspiration, transformation stories, and exclusive strategies delivered to your inbox. Your future self will thank you.</p>
+                    <form class="newsletter-form" id="newsletterForm">
+                        <input type="email" placeholder="Enter your email to start your journey" required>
+                        <button type="submit" class="btn btn-primary">Transform With Me</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Alma's Fitness</h4>
+                    <p>Transforming lives through personalized wellness and life coaching.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#book">Book Session</a></li>
+                        <li><a href="#shop">Shop</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="#privacy">Privacy Policy</a></li>
+                        <li><a href="#terms">Terms of Service</a></li>
+                        <li><a href="#returns">Return Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Alma's Fitness. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Shopping Cart Modal -->
+    <div class="modal" id="cartModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Shopping Cart</h3>
+                <button class="modal-close" id="closeCart">&times;</button>
+            </div>
+            <div class="modal-body" id="cartItems">
+                <!-- Cart items will be dynamically loaded -->
+            </div>
+            <div class="modal-footer">
+                <div class="cart-total">
+                    <span>Total:</span>
+                    <span id="cartTotal">$0.00</span>
+                </div>
+                <button class="btn btn-primary btn-block" id="checkoutBtn">Proceed to Checkout</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="js/products.js"></script>
+    <script src="js/cart.js"></script>
+    <script src="js/booking.js"></script>
+    <script src="js/animations.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

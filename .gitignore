@@ -1,0 +1,87 @@
+# Environment Variables
+.env
+.env.local
+.env.development
+.env.production
+
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# Build Output
+dist/
+build/
+.next/
+out/
+
+# Editor Directories
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+
+# Operating System Files
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+*~
+
+# Logs
+logs/
+*.log
+
+# Runtime Data
+pids/
+*.pid
+*.seed
+
+# Coverage and Testing
+coverage/
+.nyc_output/
+.coverage
+
+# Temporary Files
+tmp/
+temp/
+*.tmp
+
+# Database
+*.sqlite
+*.db
+
+# Backup Files
+*.bak
+*.backup
+
+# Production Files (if needed)
+# Uncomment these if you don't want to commit production builds
+# *.min.js
+# *.min.css
+
+# CMS/Backend Specific
+sanity/node_modules/
+sanity/dist/
+.sanity/
+
+# Cache
+.cache/
+.parcel-cache/
+
+# Serverless
+.serverless/
+
+# Optional: Image Originals (keep optimized versions only)
+# images/originals/
+# images/*.psd
+# images/*.ai
+
+# Optional: Development Notes
+notes.txt
+TODO.txt
+PRIVATE.md
