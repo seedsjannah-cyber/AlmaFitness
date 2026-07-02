@@ -39,14 +39,9 @@
                     <li><a href="#about" class="nav-link">About</a></li>
                     <li><a href="#services" class="nav-link">Services</a></li>
                     <li><a href="#book" class="nav-link">Book Session</a></li>
-                    <li><a href="#shop" class="nav-link">Shop</a></li>
                     <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
                     <li><a href="#faq" class="nav-link">FAQ</a></li>
                     <li><a href="#contact" class="nav-link">Contact</a></li>
-                    <li><a href="#cart" class="nav-link cart-icon-link">
-                        <i class="fas fa-shopping-cart"></i>
-                        <span class="cart-count" id="cartCount">0</span>
-                    </a></li>
                 </ul>
             </div>
         </div>
@@ -60,7 +55,7 @@
             <p class="hero-subtitle fade-in-up delay-1">Break through your limits. Transform your body. Unleash your power. Discover the strongest version of yourself.</p>
             <div class="hero-cta fade-in-up delay-2">
                 <a href="#book" class="btn btn-primary">Begin Your Transformation</a>
-                <a href="#shop" class="btn btn-secondary">Fuel Your Journey</a>
+                <a href="#services" class="btn btn-secondary">Explore Services</a>
             </div>
         </div>
         <div class="scroll-indicator">
@@ -248,12 +243,7 @@
                             <option value="wellness-diet">Wellness Coaching - Personalized Diet Plan</option>
                             <option value="wellness-workout">Wellness Coaching - Customized Workout Plan</option>
                             <option value="wellness-training">Wellness Coaching - 1-on-1 Online Training</option>
-                            <option value="life-goals">Life Coaching - Goal Setting & Motivation</option>
-                            <option value="life-habits">Life Coaching - Habit Building</option>
-                            <option value="life-confidence">Life Coaching - Confidence & Personal Growth</option>
-                            <option value="life-relationships">Life Coaching - Relationships & Career</option>
-                            <option value="life-stress">Life Coaching - Stress Management & Balance</option>
-                            <option value="life-resilience">Life Coaching - Resilience & Mindset</option>
+                            <option value="life-coaching">Life Coaching - Mindset, Goals & Personal Growth</option>
                             <option value="combined">Combined Wellness & Life Coaching</option>
                         </select>
                     </div>
@@ -307,27 +297,6 @@
                         <p>Free cancellation up to 24 hours before your session</p>
                     </div>
                 </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Shop Section -->
-    <section class="shop" id="shop">
-        <div class="container">
-            <div class="section-header">
-                <span class="section-label">Premium Products</span>
-                <h2 class="section-title">Shop</h2>
-                <p class="section-description">High-quality fitness apparel and supplements to support your journey</p>
-            </div>
-
-            <div class="shop-filters">
-                <button class="filter-btn active" data-filter="all">All Products</button>
-                <button class="filter-btn" data-filter="apparel">Apparel</button>
-                <button class="filter-btn" data-filter="supplements">Supplements</button>
-            </div>
-
-            <div class="products-grid" id="productsGrid">
-                <!-- Products will be dynamically loaded -->
             </div>
         </div>
     </section>
@@ -600,7 +569,7 @@
                         <li><a href="#about">About</a></li>
                         <li><a href="#services">Services</a></li>
                         <li><a href="#book">Book Session</a></li>
-                        <li><a href="#shop">Shop</a></li>
+                        <li><a href="#testimonials">Testimonials</a></li>
                     </ul>
                 </div>
                 <div class="footer-section">
@@ -608,7 +577,6 @@
                     <ul>
                         <li><a href="#privacy">Privacy Policy</a></li>
                         <li><a href="#terms">Terms of Service</a></li>
-                        <li><a href="#returns">Return Policy</a></li>
                     </ul>
                 </div>
             </div>
@@ -618,29 +586,7 @@
         </div>
     </footer>
 
-    <!-- Shopping Cart Modal -->
-    <div class="modal" id="cartModal">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h3>Shopping Cart</h3>
-                <button class="modal-close" id="closeCart">&times;</button>
-            </div>
-            <div class="modal-body" id="cartItems">
-                <!-- Cart items will be dynamically loaded -->
-            </div>
-            <div class="modal-footer">
-                <div class="cart-total">
-                    <span>Total:</span>
-                    <span id="cartTotal">$0.00</span>
-                </div>
-                <button class="btn btn-primary btn-block" id="checkoutBtn">Proceed to Checkout</button>
-            </div>
-        </div>
-    </div>
-
     <!-- Scripts -->
-    <script src="js/products.js"></script>
-    <script src="js/cart.js"></script>
     <script src="js/booking.js"></script>
     <script src="js/animations.js"></script>
     <script src="js/main.js"></script>
